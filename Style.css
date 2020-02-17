@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding:0;
+	outline: 0;
+
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+}
+.templete{
+	width: 960px;
+	margin: 0 auto;
+}
+.clear{
+	overflow: hidden;
+}
+.Headersection {
+	height: 85px;
+	background: #ff6e6e;
+	color: #fff;
+}
+.Headersection h2 {
+	font-size: 42px;
+	text-align: center;
+	padding-top: 29px;
+}
+.navigationsection {
+	background: #ddd;
+}
+.navigationsection ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigationsection ul li {
+	float: left;
+	display: block;
+}
+.navigationsection ul li a {
+	display: block;
+	background: #eab4b4;
+	border: 2px solid #ffffffe6;
+	text-decoration: none;
+	padding: 4px 66px;
+	margin: 5px;
+	font-size: 16px;
+	color: #000;
+	text-shadow: 5px 5px 5px #000;
+}
+.navigationsection ul li a:hover {
+	background: #fff;
+	color: red;
+	text-shadow: 1px 5px 5px #f00;
+}
+.contentsection{
+   background: #fff;
+}
+.maincontentsection {
+	width: 650px;
+	background: #ffaeae;
+	float: left;
+	padding: 10px;
+	margin: 15px 15px 15px 0;
+}
+.samepost{
+
+}
+.samepost h2 {
+	padding: 10px;
+	border-bottom: 2px solid #ff9797;
+	color: #e46262;
+}
+.samepost img {
+	float: left;
+	width: 176px;
+	height: 124px;
+	margin-right: 10px;
+	border: 2px solid #ef9e9e;
+	background: #ffaeae;
+	border-radius: 65px;
+}
+.samepost p {
+	color: #9b6007;
+	text-align: justify;
+	line-height: 19px;
+	padding: 5px 5px 5px 5px;
+}
+.saidebar {
+	width: 255px;
+	background: #ffb6b6;
+	float: right;
+	margin-top: 16px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.redmor{
+
+}
+.redmor a {
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	background: #ff7474;
+	display: block;
+	padding: 6px 14px;
+	font-size: 16px;
+	border-radius: 16px;
+	text-shadow: 3px 3px 5px #000;
+}
+.redmor a:hover {
+	color: #000;
+	background: #fff;
+	text-shadow: 5px 5px 5px #ff0505;
+}
+.samesidebar{
+	
+}
+.samesidebar p {
+	margin-bottom: 10px;
+	color: #837c04;
+}
+.samesidebar h2 {
+	background: #f27979;
+	padding: 10px;
+	color: #ffc2c2;
+	margin-bottom: 7px;
+	border-bottom: 2px solid #9398ff;
+}
+.footersection {
+	height: 90px;
+	background: #666;
+}
+.footersection p {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+}
